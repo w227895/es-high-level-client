@@ -1,0 +1,16 @@
+#base
+server:
+  port: 8081
+#spring
+spring:
+  application:
+    name: es-high-level-client
+#elasticsearch
+elasticsearch:
+  schema: http
+  address: 192.168.1.236:9200
+  connectTimeout: 5000
+  socketTimeout: 5000
+  connectionRequestTimeout: 5000
+  maxConnectNum: 100
+  maxConnectPerRoute: 100
